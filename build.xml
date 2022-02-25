@@ -1,4 +1,7 @@
-<javac .... includeantruntime="false" .../> 
+<javac destdir="out" includeantruntime="true">
+  <src path="foo.java" />
+  <src path="bar.java" />
+</javac>
 <?xml version="1.0" encoding="UTF-8"?>
 
 <project name="ant-java-project" basedir="." default="init">
