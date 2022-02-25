@@ -1,3 +1,6 @@
+<presetdef name="javac">
+   <javac includeantruntime="false" />
+ </presetdef>
 <?xml version="1.0" encoding="UTF-8"?>
 
 <project name="ant-java-project" basedir="." default="init">
